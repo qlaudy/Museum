@@ -331,7 +331,10 @@
             Бути в курсі всіх актуальних подій та останніх новин.
           </h2>
         </div>
-        <form class="subscribe__form"  >
+        <form
+          class="subscribe__form"
+          onsubmit="this.reset(); return false;"
+        >
           <div class="subscribe__button">
             <input
               class="subscribe__input"
@@ -412,21 +415,25 @@
               target="_blank"
               class="footer__contact-link"
             >
-              вул. М. Грушевського, 6; Київ, 01001 тел.
+              вул. М. Грушевського, 6; Київ, 01001
             </a>
+            <br />
             <a
               href="tel:+380442781357"
               class="footer__contact-link"
             >
-              +38 (044) 278-13-57
+              тел. +38 (044) 278-13-57
             </a>
-            факс
+            <br />
+
             <a
               href="tel:+380442787454"
               class="footer__contact-link"
             >
-              +38 (044) 278-74-54
+              факс +38 (044) 278-74-54
             </a>
+            <br />
+
             <a
               href="malito:info@namu.kiev.ua"
               class="footer__contact-link"

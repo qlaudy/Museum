@@ -120,7 +120,13 @@
       letter-spacing: 0%;
     }
 
-
+    &:-webkit-autofill,
+    &:-webkit-autofill:hover,
+    &:-webkit-autofill:focus,
+    &:-webkit-autofill:active {
+      box-shadow: 0 0 0 1000px #fff inset !important;
+      -webkit-text-fill-color: #4e4e4e !important;
+    }
 
     @include on-tablet {
       padding-left: 24px;
